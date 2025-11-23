@@ -22,6 +22,7 @@ This project follows the four-step Power BI report development process, focusing
 ### _**Step 1: Build Your Data Model & Analyze Data**_
 
 This step includes five key activities:
+
 _1. Requirements Gathering_ 
  - Identified HR questions: hiring, diversity, performance, attrition
  - Defined KPIs and metrics needed by the HR stakeholders
@@ -59,7 +60,7 @@ Created measures for:
  - Performance metrics
  - Year-over-year comparisons
 
-_**Step 2: Report Design**_
+### _**Step 2: Report Design**_
 
 This step includes three key activities:
 
@@ -84,7 +85,7 @@ _3. Building Visuals_
  - Active employees by department and job role
  - Built interactions and slicers for exploration
 
-**Final Data Model (Snowflake Schema)**
+### **Final Data Model (Snowflake Schema)**
 
 The final schema uses:
 - FactPerformanceRating (central table)
@@ -92,7 +93,7 @@ The final schema uses:
 - One dimension not directly linked to the fact (as expected in snowflake schema)
 - This structure increases flexibility and data clarity for reporting.
 
-**Final Dashboard**
+### **Final Dashboard**
 
 The final dashboard enables Atlas Labs HR team to:
 - monitor hiring trends
