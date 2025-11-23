@@ -114,4 +114,20 @@ Throughout this case study, the following concepts and skills were applied:
 - Interactive dashboard creation
 
 This project demonstrates how to build a professional, stakeholder-ready Power BI report from scratch.
+<img width="1370" height="767" alt="hr" src="https://github.com/user-attachments/assets/8adefea2-9b66-4993-9f53-cc4cf3fdca28" />
+
+<img width="1392" height="771" alt="hr1" src="https://github.com/user-attachments/assets/cce1ce84-ceae-475e-b5f3-1178a88f9f16" />
+
+
+<img width="1370" height="776" alt="hr2" src="https://github.com/user-attachments/assets/d607f8cb-3a97-4f4e-b5b9-e11bc7f398da" />
+
+
+<img width="1361" height="760" alt="hr3" src="https://github.com/user-attachments/assets/c7b62a2b-851e-49fc-a078-dc034fbe40ff" />
+
+
+
+
+
+
+
 
