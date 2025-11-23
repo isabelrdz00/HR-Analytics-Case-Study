@@ -15,11 +15,11 @@ This case study walks through the complete Power BI report development lifecycle
 
 The final report provides Atlas Labs’ HR team with a clear, intuitive overview of employee metrics.
 
-##**Power BI Report Development Workflow**
+## **Power BI Report Development Workflow**
 
 This project follows the four-step Power BI report development process, focusing on the first two steps.
 
-_**Step 1: Build Your Data Model & Analyze Data**_
+### _**Step 1: Build Your Data Model & Analyze Data**_
 
 This step includes five key activities:
 _1. Requirements Gathering_ 
