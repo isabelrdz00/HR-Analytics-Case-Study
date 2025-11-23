@@ -19,25 +19,24 @@ The final report provides Atlas Labs’ HR team with a clear, intuitive overview
 
 This project follows the four-step Power BI report development process, focusing on the first two steps.
 
-Step 1: Build Your Data Model & Analyze Data
-
+_**Step 1: Build Your Data Model & Analyze Data**_
 This step includes five key activities:
-1. Requirements Gathering
+_1. Requirements Gathering_ 
  - Identified HR questions: hiring, diversity, performance, attrition
  - Defined KPIs and metrics needed by the HR stakeholders
 
- 2. Connecting to Data Sources
+_2. Connecting to Data Sources_
  - Loaded FactPerformanceRating and supporting dimension tables
  - Connected employee, education, satisfaction, and rating datasets
  - Prepared to build a date dimension table
 
- 3. Data Transformation
+_ 3. Data Transformation_
  - Cleaned and structured all tables in Power Query
  - Standardized column names
  - Ensured consistent keys across dimensions
  - Created the Date table with Year, Quarter, Month, and Day fields
 
- 4. Data Modeling
+_4. Data Modeling_
 
 Built a snowflake schema with:
  - FactPerformanceRating (central fact table)
@@ -49,7 +48,7 @@ Built a snowflake schema with:
  - Defined one-to-many relationships
  - Ensured referential integrity
 
- 5. Write Initial DAX Measures
+ _5. Write Initial DAX Measures_
 
 Created measures for:
  - Total Employees
@@ -59,15 +58,14 @@ Created measures for:
  - Performance metrics
  - Year-over-year comparisons
 
-Step 2: Report Design
-
+_**Step 2: Report Design**_
 This step includes three key activities:
 
-1. Branding
+_1. Branding_
  - Chose colors, typography, and layout consistent with Atlas Labs’ theme
  - Added navigation bar and sections for readability
 
-2. Defining Report Layout
+_2. Defining Report Layout_
 Structured multiple pages for:
  - Overview
  - Demographics
@@ -75,7 +73,7 @@ Structured multiple pages for:
  - Attrition
  - Allocated space for KPIs, filters, charts, and drilldowns
 
-3. Building Visuals
+_3. Building Visuals_
  - Added clean, intuitive charts including:
  - Hiring trends
  - Diversity distribution
