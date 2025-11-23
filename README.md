@@ -20,6 +20,7 @@ The final report provides Atlas Labs’ HR team with a clear, intuitive overview
 This project follows the four-step Power BI report development process, focusing on the first two steps.
 
 _**Step 1: Build Your Data Model & Analyze Data**_
+
 This step includes five key activities:
 _1. Requirements Gathering_ 
  - Identified HR questions: hiring, diversity, performance, attrition
@@ -30,7 +31,7 @@ _2. Connecting to Data Sources_
  - Connected employee, education, satisfaction, and rating datasets
  - Prepared to build a date dimension table
 
-_ 3. Data Transformation_
+_3. Data Transformation_
  - Cleaned and structured all tables in Power Query
  - Standardized column names
  - Ensured consistent keys across dimensions
@@ -59,6 +60,7 @@ Created measures for:
  - Year-over-year comparisons
 
 _**Step 2: Report Design**_
+
 This step includes three key activities:
 
 _1. Branding_
