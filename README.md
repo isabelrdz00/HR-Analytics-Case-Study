@@ -16,28 +16,30 @@ This case study walks through the complete Power BI report development lifecycle
 The final report provides Atlas Labs’ HR team with a clear, intuitive overview of employee metrics.
 
 **Power BI Report Development Workflow**
+
 This project follows the four-step Power BI report development process, focusing on the first two steps.
 
 Step 1: Build Your Data Model & Analyze Data
 
 This step includes five key activities:
-- 1. Requirements Gathering
+1. Requirements Gathering
  - Identified HR questions: hiring, diversity, performance, attrition
  - Defined KPIs and metrics needed by the HR stakeholders
 
-- 2. Connecting to Data Sources
+ 2. Connecting to Data Sources
  - Loaded FactPerformanceRating and supporting dimension tables
  - Connected employee, education, satisfaction, and rating datasets
  - Prepared to build a date dimension table
 
-- 3. Data Transformation
+ 3. Data Transformation
  - Cleaned and structured all tables in Power Query
  - Standardized column names
  - Ensured consistent keys across dimensions
  - Created the Date table with Year, Quarter, Month, and Day fields
 
-- 4. Data Modeling
- - Built a snowflake schema with:
+ 4. Data Modeling
+
+Built a snowflake schema with:
  - FactPerformanceRating (central fact table)
  - DimEmployee
  - DimEducationLevel
@@ -47,8 +49,9 @@ This step includes five key activities:
  - Defined one-to-many relationships
  - Ensured referential integrity
 
-- 5. Write Initial DAX Measures
- - Created measures for:
+ 5. Write Initial DAX Measures
+
+Created measures for:
  - Total Employees
  - Active Employees
  - Inactive Employees
@@ -60,11 +63,11 @@ Step 2: Report Design
 
 This step includes three key activities:
 
-- 1. Branding
+1. Branding
  - Chose colors, typography, and layout consistent with Atlas Labs’ theme
  - Added navigation bar and sections for readability
 
-- 2. Defining Report Layout
+2. Defining Report Layout
 Structured multiple pages for:
  - Overview
  - Demographics
@@ -72,7 +75,7 @@ Structured multiple pages for:
  - Attrition
  - Allocated space for KPIs, filters, charts, and drilldowns
 
-- 3. Building Visuals
+3. Building Visuals
  - Added clean, intuitive charts including:
  - Hiring trends
  - Diversity distribution
@@ -82,6 +85,7 @@ Structured multiple pages for:
  - Built interactions and slicers for exploration
 
 **Final Data Model (Snowflake Schema)**
+
 The final schema uses:
 - FactPerformanceRating (central table)
 - 5 dimension tables providing entity context
@@ -89,6 +93,7 @@ The final schema uses:
 - This structure increases flexibility and data clarity for reporting.
 
 **Final Dashboard**
+
 The final dashboard enables Atlas Labs HR team to:
 - monitor hiring trends
 - explore diversity and inclusion data
