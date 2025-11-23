@@ -1,9 +1,9 @@
-**📊 Atlas Labs – HR Analytics Dashboard (Power BI Case Study)**
+#**📊 Atlas Labs – HR Analytics Dashboard (Power BI Case Study)**
 
 This project is an end-to-end Power BI report development case study using fictitious HR datasets from a tech company called Atlas Labs.
 The goal is to design a reusable, interactive HR analytics report that helps the company monitor employee performance, hiring trends, diversity metrics, and attrition factors.
 
-**⭐ Report Summary**
+##**⭐ Report Summary**
 This case study walks through the complete Power BI report development lifecycle, focusing on:
 - requirements gathering
 - connecting to multiple data sources
@@ -15,7 +15,7 @@ This case study walks through the complete Power BI report development lifecycle
 
 The final report provides Atlas Labs’ HR team with a clear, intuitive overview of employee metrics.
 
-**Power BI Report Development Workflow**
+##**Power BI Report Development Workflow**
 
 This project follows the four-step Power BI report development process, focusing on the first two steps.
 
